@@ -1,0 +1,199 @@
+#wrap{background: url(../img/bg.gif);}
+#header{}
+#slide{}
+#season{}
+#app{}
+#menu{}
+#footer{ background: rgba(51,51,51,1);border-top: 1px solid #72020E;margin-top: 100px;}
+#container{width: 1280px; margin: 0 auto;}
+#row{margin-top: 100px; padding: 0 24px;}
+
+
+/* 퀵메뉴 */
+.quickmenu{position: fixed; top: 140px; right: 2%;}
+.quickmenu img{display: block;}
+
+/* 헤더 */
+#header #row{padding: 24px 24px 12px 24px; margin-top: 0;}
+.header{text-align: center; position: relative;}
+.header h1{text-align: center; font-size: 0px;}
+.header h1 a{width: 330px; height: 53px; display: inline-block; background: url(../img/logo2.png) center center; background-size: cover;}
+.header .nav_mobile{position: absolute; top: 0; right: 0; display: none;}
+.header .nav_mobile ul li{float: left;}
+.header .nav_mobile ul li a{display: block; width: 42px; height: 42px; box-sizing: border-box; margin-left: 5px; margin-top: 6px;}
+.header .nav_mobile ul li a.btn_find{background-position: -42px 0; background-size: 420px;}
+.header .nav_mobile ul li a.btn_myinfo{background-position: -84px 0; background-size: 420px;}
+.header .nav_mobile ul li a.btn_ham{background-position: -126px 0; background-size: 420px;}
+.header .nav1{position: absolute; top: 15px; right:0;}
+.header .nav1 ul li{float: left; margin-right: 32px;}
+.header .nav1 ul li:last-child{margin-right:0;}
+.header .nav1 ul li a{font-size: 14px;}
+.header .nav2 {margin-top: 24px;text-align: center;}
+.header .nav2 ul li {display: inline-block; margin-right: 6%;}
+.header .nav2 ul li:last-child {margin-right: 0;}
+.header .nav2 ul li a{font-size: 18px; font-weight: 500;}
+
+/*슬라이드*/
+#slide #row{margin-top: 0;}
+.slide img{display: block;}
+.notice{float: left; width: 50%;background: url(../img/bg2.jpg); background-size: cover; border-radius: 0 0 0 20px; padding: 12px 0 11px 63px; box-sizing: border-box; overflow: hidden; position: relative;}
+.notice h2{font-size: 18px;float: left;}
+.notice div.notice_slide{float: left; margin-left: 12px; padding: 3px 0; font-size: 14px;width: 63%;}
+.notice div.notice_slide a{width: inherit; display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-top: 1px;}
+.notice div.notice_icon{float: right; margin-right: 63px;}
+.notice div.notice_icon a{width: 26px;height: 26px; background: url(../icon/notice_btn.png);display: block; position: absolute;top: 12px;right: 63px; z-index: 100;}
+.find{float: right; width: 50%;background: url(../img/bg3.jpg); background-size: cover; border-radius: 0 0 20px 0;text-align: center;padding: 12px 0 11px 0; box-sizing: border-box;}
+.find h2 a strong{font-size: 18px; white-space: nowrap; padding-left: 12px;}
+.find h2 a span{display: inline-block;width: 20px;height: 25px;background: url(../icon/icon_map.png); background-size: 20px; vertical-align: -5px;}
+.first{height: 27px;}
+
+/* 시즌메뉴 */
+.season_left{width: 49%; margin-right: 2%; float: left;}
+.season_left img{display: block; width: 100%;}
+.season_left figure:first-child img{border-radius: 20px 0 0;margin-bottom: 24px;}
+.season_left figure:last-child img{border-radius: 0 0 0 20px;}
+.season_right{width: 49%; float: left;}
+.season_right img{display: block;}
+.season_right figure:first-child img{border-radius: 0 20px 0 0;margin-bottom: 24px;}
+.season_right figure:last-child img{border-radius: 0 0 20px 0;}
+.season_mobile{display: none;}
+.season_mobile img{border-radius: 20px; width: 100%;}
+
+/* 이벤트 */
+.event{}
+.event figure{width: 49%; float: left;}
+.event figure:first-child{ margin-right: 2%;}
+.event figure:first-child img{border-radius: 20px 0 0 20px;display: block; width: 100%;}
+.event figure:last-child img{border-radius: 0 20px 20px 0; display: block; width: 100%;}
+
+/* 어플 */
+.app{background: url(../img/bg3.jpg); border-radius: 20px;  padding: 24px;}
+.app .app_left{width: 49%; margin-right: 2%; float: left;}
+.app .video{width: 49%; position: relative; padding-bottom: 27.495%;}
+.app .video iframe{position: absolute; width: 100%; height: 100%;}
+.app .app_right1{width: 49%; float: right;}
+.app .app_right1 strong{margin-top: 35px;font-size: 18px;font-weight: 500;display: block;} 
+.app .app_right1 p{font-size: 16px;display: block;margin-top: 12px; font-weight: 300;}
+.app .app_right2{float: left;}
+.app .app_right2 em{font-size: 16px;font-weight: 500;margin-top: 36px;display: block;}
+.app .app_right2 figure{margin-top: 12px;background: rgba(0,0,0,0.3); display: inline-block;padding: 12px;}
+.app .app_right2 figure a{display: inline-block; margin-right: 12px; position: relative; top: -7.5px;}
+.app .app_right2 figure img{display: inline-block;}
+.app .app_right2 figure img:last-child{margin-right: 0; margin-bottom: 0;}
+
+/* 메뉴 */
+.menu{}
+.menu ul{text-align: center;}
+.menu ul li{float: left; width: 32%; margin-right: 2%;}
+.menu ul li:last-child{margin-right: 0;}
+.menu ul li a img{ border-radius: 20px; display: block; margin-bottom: 12px;}
+.menu ul li:nth-child(2) a img{margin-top: 12px;}
+.menu ul li span{font-size: 24px; font-weight: 500;}
+
+/* 푸터 */
+#footer #row{margin-top: 0;}
+.footer{padding: 50px 0;}
+.footer .footer_logo{float: left; width: 15%; margin-top: 24px;}
+.footer .address{float: left;width: 85%;}
+.footer .address .footer_menu{}
+.footer .address .footer_menu li{float: left; padding: 0 10px; position: relative;}
+.footer .address .footer_menu li:after{content: ''; width: 1px; height: 12px; background: #fff; position: absolute; top: 4px; left: 0;}
+.footer .address .footer_menu li:first-child:after{background: none;}
+.footer .address .footer_menu li a{font-size: 12px;}
+.footer .address .footer_info{margin-top: 10px;font-weight: 300;}
+.footer .address .footer_info li{float: left; padding: 2px 10px;position: relative;font-size: 12px;font-weight: 300;}
+.footer .address .footer_info li:after{content: ''; width: 1px; height: 12px; background: #fff; position: absolute; top: 6px; left: 0;}
+.footer .address .footer_info li:nth-child(1):after{background: none;}
+.footer .address .footer_info li:nth-child(6):after{background: none;}
+.footer .address .footer_info li:nth-child(9):after{background: none;}
+
+@media(max-width:1280px){
+    #container{width: 100%;}
+    .header .nav2 ul li{margin-right: 4%;}
+    .header .nav2 ul li a{font-size: 18px;}
+    .quickmenu{display: none;}
+}
+
+@media(max-width:1080px){
+    .header .nav1 ul li{margin-right: 16px;}
+    .header .nav2 ul li{margin-right: 3%;}
+    .notice{padding: 12px 0 11px 30px;}
+    .notice div.notice_icon{margin-right: 30px;}
+    .notice div.notice_icon a{right: 30px;}
+    .menu ul li span{font-size: 20px;}
+    .app .app_right1 strong{margin-top: 0;}
+}
+
+@media(max-width:960px){
+    #header #row{padding:24px}
+    #row{margin-top: 50px; padding: 0 12px;}
+    .header .nav_mobile{display: block;}
+    .header .nav1{display: none;}
+    .header .nav2{display: none;}
+    .notice{width: 100%; border-radius: 0 0 20px 20px}
+    .notice div.notice_slide{width: 60%;}
+    .find{display: none;}
+    .event figure img{border-radius: 20px !important; width: 100%; display: block;}
+    .season_left, .season_right{display: none;}
+    .season_mobile{display: block;}
+    .app .app_right figure img{width: 80%;}
+    .app .video{width: 100%;padding-bottom: 56.25%;}
+    .app .app_right1{float: left; width: 100%;}
+    .app .app_right2{width: 100%;}
+    .app .app_right2 em{display: none;}
+    .app .app_right1 strong{font-size: 16px;margin-top: 24px;}
+    .app .app_right1 p{display: none;}
+    .menu ul li{width: 100%; position: relative;}
+    .menu ul li a img{width: 49%; margin-bottom: 0; display: inline-block; margin-top: 12px; margin-right: 51%;}
+    .menu ul li span{float: right; width: 49%;position: absolute; left: 75%; top: 50%; transform: translate(-50%, -50%);}
+    .menu ul li:nth-child(2) a img{margin-left: 51%;;}
+    .menu ul li:nth-child(2) span{left: 25%;}
+    #footer{margin-top: 50px;}
+    .footer{padding: 25px 0;}
+    .footer .footer_logo{width: 100%; text-align: center;}
+    .footer .footer_logo{margin-top: 0;}
+    .footer .address{text-align: center; width: 100%;}
+    .footer .address .footer_menu li{display: inline; float: none;}
+    .footer .address .footer_menu{margin-top: 10px;}
+    .footer .address .footer_info li{display: inline; float: none;}
+
+}
+@media(max-width:768px){
+    .header h1 a{width: 220px; height:35.333px;}
+    .header .nav_mobile ul li a{width: 30px; height: 30px; margin-left: 5px; margin-top: 2.6px;}
+    .header .nav_mobile ul li a.btn_find{background-position: -30px 0; background-size: 300px;}
+    .header .nav_mobile ul li a.btn_myinfo{background-position: -60px 0; background-size: 300px;}
+    .header .nav_mobile ul li a.btn_ham{background-position: -90px 0; background-size: 300px;}
+@media(max-width:510px){
+    .app .app_right2 figure{padding: 0; background: none;}
+}
+
+@media(max-width:480px){
+    #row{padding: 0;}
+    #header #row{padding: 24px;}
+    .header h1 a{width: 165px;height: 26px;}
+    .header .nav_mobile{right: -16px;}
+    .header .nav_mobile ul li a{margin-top: -2px;}
+    .header .nav_mobile ul li a.btn_find{display: none;}
+    .header .nav_mobile ul li a.btn_myinfo{display: none;}
+    .header .nav_mobile ul li a.btn_ham{}
+    #slide{display: none;}
+    .notice div.notice_icon{margin-right: 12px;}
+    .notice{padding: 12px 0 11px 12px;}
+    .notice h2{display: none;}
+    #season #row{margin-top: 0;}
+    .season_mobile img{border-radius: 0;}
+    .event figure img{border-radius: 0 !important;}
+    .menu ul li {font-size: 0;}
+    .menu ul li span{left: 50%;width: auto; background: rgba(0,0,0,0.5);white-space: nowrap; font-size: 18px; padding: 5px; border-radius: 5px;}
+    .menu ul li a{font-size: 0;}
+    .menu ul li a img{width: 100%; margin-right: 0;border-radius: 0; margin-top: 0;}
+    .menu ul li:nth-child(2) a img{margin-left: 0; margin-top: 0;}
+    .menu ul li:nth-child(2) span{left: 50%; width: auto;}
+    .app{border-radius: 0;padding: 12px;}
+    .app .app_right2 figure>img{display: none;} 
+    .app .app_right1 strong{margin-bottom: 6px; text-align: center; margin-top: 12px;}
+    .app .app_right2 figure a:nth-child(2){margin-right: 0;}
+    .app .app_right2 figure{text-align: center; display: block;}
+    .app .app_right2 figure a{margin-right: 2%; text-align: center; width: 45%;}
+}
